@@ -3,8 +3,10 @@ using System.Collections;
 
 public class CameraMovimentacao : MonoBehaviour
 {
-    [SerializeField] public bool CursorOn;
+    public static CameraMovimentacao instance;
 
+    [SerializeField] public bool CursorOn;
+    
     [SerializeField] public Transform Player;
     [SerializeField] public GameObject Head;
     [SerializeField] public GameObject target2;
@@ -23,11 +25,8 @@ public class CameraMovimentacao : MonoBehaviour
 
     float mouseX, mouseY;
 
-    void Start()
-    {
-    
-    }
-
+    private void Awake()
+    {instance = this;}
 
     public void Update()
     {

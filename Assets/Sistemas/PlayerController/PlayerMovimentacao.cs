@@ -14,6 +14,12 @@ public class PlayerMovimentacao : MonoBehaviour
 
     public void FixedUpdate()
     {
+        Command_walk();
+    }
+
+    // Comando: mover/andar
+    void Command_walk()
+    {
         float xMov = Input.GetAxisRaw("Horizontal");
         float zMov = Input.GetAxisRaw("Vertical");
         float yMov = Input.GetAxisRaw("Jump");

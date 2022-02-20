@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemData>
+<Items>
+	<Item>
+		<ID>1</ID>
+		<Nome>Teste A</Nome>
+		<Descricao>Para testar o jogo, A</Descricao>
+	</Item>
+	<Item>
+		<ID>2</ID>
+		<Nome>Teste B</Nome>
+		<Descricao>Para testar o jogo, B</Descricao>
+	</Item>
+	<Item>
+		<ID>3</ID>
+		<Nome>Teste C</Nome>
+		<Descricao>Para testar o jogo, C</Descricao>
+	</Item>
+	<Item>
+		<ID>4</ID>
+		<Nome>Cura1</Nome>
+		<Descricao>Restaura 10 HP por uso</Descricao>
+	</Item>
+</Items>
+</ItemData>
